@@ -35,7 +35,7 @@ In other words, Enzo is a fully open-source software package designed for solvin
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ X ] I have installed the software
+- [X] I have installed the software
 - [ ] I have run at least one example
 - [ ] I have run the test suite
 - [ ] The test suite passes

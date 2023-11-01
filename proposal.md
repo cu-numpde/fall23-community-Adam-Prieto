@@ -1,7 +1,10 @@
 # Community Software Analysis Proposal
 Adam Prieto
+
 Dr. Jed Brown 
+
 CSCI 5636 - Numerical Solutions to Partial Differential Equations
+
 Last Updated: 10/31
 
 ## Software: The Enzo Project

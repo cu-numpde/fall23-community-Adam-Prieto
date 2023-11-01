@@ -63,3 +63,7 @@ affirm a [developer's certificate of
 origin (DCO)](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin),
 etc.  If you have concerns about this, please note them and/or reach
 out to Jed directly.
+
+Per the official Enzo github repo, Enzo is a fully open-source code project, 
+and anyone is welcome to take it, inspect it, modify it, and contribute any
+changes. 

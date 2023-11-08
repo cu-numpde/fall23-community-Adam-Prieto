@@ -7,33 +7,37 @@ CSCI 5636 - Numerical Solutions to Partial Differential Equations
 
 Last Updated: 10/31
 
-## Software: The Enzo Project
+## Software: fypi
 
 *Write a paragraph describing what the software does and who its
 primary audience is.*
 
 From the main website:
 
-"Enzo is a community-developed adaptive mesh refinement simulation code, designed for rich, multi-physics hydrodynamic astrophysical calculations."
-In other words, Enzo is a fully open-source software package designed for solving astrophysics related PDEs.
+FiPy is an object oriented, partial differential equation (PDE) solver, written in Python, 
+based on a standard finite volume (FV) approach. Put simply, FiPy is another PDE solver, 
+only this one is based on OOP. FiPy is also primarily aimed towards Python developers who want
+to start working with PDEs. 
+
+ 
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |  https://github.com/enzo-project/enzo-dev  |
-| Main/documentation website |  https://enzo-project.org/index.html#developing  |
-| Year project was started |  2010 |
+| Repository URL |  https://github.com/usnistgov/fipy  |
+| Main/documentation website |  https://www.ctcms.nist.gov/fipy/  |
+| Year project was started |  2001 |
 | Number of contributors in the past year | `git shortlog -se --since=2022-10-01` may be useful |
-| Number of contributors in the lifetime of the project | 56 |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
+| Number of contributors in the lifetime of the project | 13 |
+| Number of distinct affiliations | 1 |
 | Where do development discussions take place? | GitHub and official mailing list  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
+| Typical number of emails/comments per week? | 1-3 |
+| Typical number of commits per week? | 0 |
 | Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
+| How does the project accept contributions? | Mailing List Patches and email requests.   |
+| Does the project have an automated test suite? | Yes |
+| Does the project use continuous integration? | Yes |
 | Are any legal/licensing steps required to contribute? | No |
 
 ### Install and run
@@ -42,8 +46,8 @@ Check the following boxes when complete or add a note below if you
 encountered a problem.
 
 - [X] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
+- [X] I have run at least one example
+- [X] I have run the test suite
 - [ ] The test suite passes
 
 ### Notes/concerns/risks
@@ -55,6 +59,10 @@ the project requires a contributor license agreement or other
 procedural steps, please explain here.  "None at this time" is
 acceptable for this question.
 
+This is a very involved project with many moving componenets. Having said that, I'm worried
+that there will be many complications future complications and I won't be prepared for them.
+ 
+
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
 course, so you are authorized to sign a [contributor license
@@ -63,7 +71,3 @@ affirm a [developer's certificate of
 origin (DCO)](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin),
 etc.  If you have concerns about this, please note them and/or reach
 out to Jed directly.
-
-Per the official Enzo github repo, Enzo is a fully open-source code project, 
-and anyone is welcome to take it, inspect it, modify it, and contribute any
-changes. 
